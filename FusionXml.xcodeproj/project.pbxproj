@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8F05693F206906200028D256 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F05693E206906200028D256 /* main.c */; };
+		8F0DD08C2099B3C500AC892F /* library.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F0DD08B2099B3C500AC892F /* library.c */; };
+		8F7870652084D68200AD26E6 /* libconfig++.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7870542084D68100AD26E6 /* libconfig++.a */; };
+		8F7870662084D68200AD26E6 /* libconfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F78705D2084D68100AD26E6 /* libconfig.a */; };
+		8F7870672084D68200AD26E6 /* libconfig.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F78705E2084D68100AD26E6 /* libconfig.dylib */; };
+		8F7870682084D68200AD26E6 /* libconfig.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F78705F2084D68100AD26E6 /* libconfig.11.dylib */; };
+		8F7870692084D68200AD26E6 /* libconfig++.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7870602084D68100AD26E6 /* libconfig++.11.dylib */; };
+		8F78706A2084D68200AD26E6 /* libconfig++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7870612084D68100AD26E6 /* libconfig++.dylib */; };
+		8F78706D2084DAAF00AD26E6 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F78706C2084DAAF00AD26E6 /* config.c */; };
+		8FE60A502090C55B005BCD72 /* generateXml.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FE60A4F2090C55B005BCD72 /* generateXml.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,34 @@
 /* Begin PBXFileReference section */
 		8F05693B206906200028D256 /* FusionXml */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FusionXml; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F05693E206906200028D256 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8F0DD08A2099B3C500AC892F /* library.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = library.h; sourceTree = "<group>"; };
+		8F0DD08B2099B3C500AC892F /* library.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = library.c; sourceTree = "<group>"; };
+		8F7870462084D68100AD26E6 /* INSTALL_RECEIPT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = INSTALL_RECEIPT.json; sourceTree = "<group>"; };
+		8F7870472084D68100AD26E6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8F7870492084D68100AD26E6 /* libconfig.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = libconfig.rb; sourceTree = "<group>"; };
+		8F78704A2084D68100AD26E6 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		8F78704B2084D68100AD26E6 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		8F78704D2084D68100AD26E6 /* libconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libconfig.h; sourceTree = "<group>"; };
+		8F78704E2084D68100AD26E6 /* libconfig.h++ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "libconfig.h++"; sourceTree = "<group>"; };
+		8F78704F2084D68100AD26E6 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		8F7870502084D68100AD26E6 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		8F7870512084D68100AD26E6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F7870522084D68100AD26E6 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		8F7870542084D68100AD26E6 /* libconfig++.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libconfig++.a"; sourceTree = "<group>"; };
+		8F7870562084D68100AD26E6 /* libconfig++.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libconfig++.pc"; sourceTree = "<group>"; };
+		8F7870572084D68100AD26E6 /* libconfig.pc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libconfig.pc; sourceTree = "<group>"; };
+		8F78705A2084D68100AD26E6 /* libconfigConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libconfigConfig.cmake; sourceTree = "<group>"; };
+		8F78705C2084D68100AD26E6 /* libconfig++Config.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libconfig++Config.cmake"; sourceTree = "<group>"; };
+		8F78705D2084D68100AD26E6 /* libconfig.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libconfig.a; sourceTree = "<group>"; };
+		8F78705E2084D68100AD26E6 /* libconfig.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libconfig.dylib; sourceTree = "<group>"; };
+		8F78705F2084D68100AD26E6 /* libconfig.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libconfig.11.dylib; sourceTree = "<group>"; };
+		8F7870602084D68100AD26E6 /* libconfig++.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libconfig++.11.dylib"; sourceTree = "<group>"; };
+		8F7870612084D68100AD26E6 /* libconfig++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libconfig++.dylib"; sourceTree = "<group>"; };
+		8F7870642084D68100AD26E6 /* libconfig.info */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libconfig.info; sourceTree = "<group>"; };
+		8F78706B2084DAAF00AD26E6 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		8F78706C2084DAAF00AD26E6 /* config.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		8FE60A4E2090C55B005BCD72 /* generateXml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = generateXml.h; sourceTree = "<group>"; };
+		8FE60A4F2090C55B005BCD72 /* generateXml.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = generateXml.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7870692084D68200AD26E6 /* libconfig++.11.dylib in Frameworks */,
+				8F7870672084D68200AD26E6 /* libconfig.dylib in Frameworks */,
+				8F7870682084D68200AD26E6 /* libconfig.11.dylib in Frameworks */,
+				8F7870652084D68200AD26E6 /* libconfig++.a in Frameworks */,
+				8F78706A2084D68200AD26E6 /* libconfig++.dylib in Frameworks */,
+				8F7870662084D68200AD26E6 /* libconfig.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +100,125 @@
 		8F05693D206906200028D256 /* FusionXml */ = {
 			isa = PBXGroup;
 			children = (
+				8F7870442084D68100AD26E6 /* libconfig */,
 				8F05693E206906200028D256 /* main.c */,
+				8F78706B2084DAAF00AD26E6 /* config.h */,
+				8F78706C2084DAAF00AD26E6 /* config.c */,
+				8FE60A4E2090C55B005BCD72 /* generateXml.h */,
+				8FE60A4F2090C55B005BCD72 /* generateXml.c */,
+				8F0DD08A2099B3C500AC892F /* library.h */,
+				8F0DD08B2099B3C500AC892F /* library.c */,
 			);
 			path = FusionXml;
+			sourceTree = "<group>";
+		};
+		8F7870442084D68100AD26E6 /* libconfig */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870452084D68100AD26E6 /* 1.7.2 */,
+			);
+			path = libconfig;
+			sourceTree = "<group>";
+		};
+		8F7870452084D68100AD26E6 /* 1.7.2 */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870462084D68100AD26E6 /* INSTALL_RECEIPT.json */,
+				8F7870472084D68100AD26E6 /* LICENSE */,
+				8F7870482084D68100AD26E6 /* .brew */,
+				8F78704A2084D68100AD26E6 /* ChangeLog */,
+				8F78704B2084D68100AD26E6 /* AUTHORS */,
+				8F78704C2084D68100AD26E6 /* include */,
+				8F78704F2084D68100AD26E6 /* README */,
+				8F7870502084D68100AD26E6 /* TODO */,
+				8F7870512084D68100AD26E6 /* README.md */,
+				8F7870522084D68100AD26E6 /* NEWS */,
+				8F7870532084D68100AD26E6 /* lib */,
+				8F7870622084D68100AD26E6 /* share */,
+			);
+			path = 1.7.2;
+			sourceTree = "<group>";
+		};
+		8F7870482084D68100AD26E6 /* .brew */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870492084D68100AD26E6 /* libconfig.rb */,
+			);
+			path = .brew;
+			sourceTree = "<group>";
+		};
+		8F78704C2084D68100AD26E6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8F78704D2084D68100AD26E6 /* libconfig.h */,
+				8F78704E2084D68100AD26E6 /* libconfig.h++ */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8F7870532084D68100AD26E6 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870542084D68100AD26E6 /* libconfig++.a */,
+				8F7870552084D68100AD26E6 /* pkgconfig */,
+				8F7870582084D68100AD26E6 /* cmake */,
+				8F78705D2084D68100AD26E6 /* libconfig.a */,
+				8F78705E2084D68100AD26E6 /* libconfig.dylib */,
+				8F78705F2084D68100AD26E6 /* libconfig.11.dylib */,
+				8F7870602084D68100AD26E6 /* libconfig++.11.dylib */,
+				8F7870612084D68100AD26E6 /* libconfig++.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8F7870552084D68100AD26E6 /* pkgconfig */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870562084D68100AD26E6 /* libconfig++.pc */,
+				8F7870572084D68100AD26E6 /* libconfig.pc */,
+			);
+			path = pkgconfig;
+			sourceTree = "<group>";
+		};
+		8F7870582084D68100AD26E6 /* cmake */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870592084D68100AD26E6 /* libconfig */,
+				8F78705B2084D68100AD26E6 /* libconfig++ */,
+			);
+			path = cmake;
+			sourceTree = "<group>";
+		};
+		8F7870592084D68100AD26E6 /* libconfig */ = {
+			isa = PBXGroup;
+			children = (
+				8F78705A2084D68100AD26E6 /* libconfigConfig.cmake */,
+			);
+			path = libconfig;
+			sourceTree = "<group>";
+		};
+		8F78705B2084D68100AD26E6 /* libconfig++ */ = {
+			isa = PBXGroup;
+			children = (
+				8F78705C2084D68100AD26E6 /* libconfig++Config.cmake */,
+			);
+			path = "libconfig++";
+			sourceTree = "<group>";
+		};
+		8F7870622084D68100AD26E6 /* share */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870632084D68100AD26E6 /* info */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		8F7870632084D68100AD26E6 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				8F7870642084D68100AD26E6 /* libconfig.info */,
+			);
+			path = info;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F05693F206906200028D256 /* main.c in Sources */,
+				8F78706D2084DAAF00AD26E6 /* config.c in Sources */,
+				8FE60A502090C55B005BCD72 /* generateXml.c in Sources */,
+				8F0DD08C2099B3C500AC892F /* library.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +395,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FusionXml/libconfig/1.7.2/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FusionXml/libconfig/1.7.2/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +408,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/FusionXml/libconfig/1.7.2/include";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FusionXml/libconfig/1.7.2/lib",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
